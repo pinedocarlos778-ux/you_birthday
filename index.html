@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17113b">
+  <meta name="description" content="A birthday celebration for English teacher José Aricochea.">
+  <title>Happy Birthday, Teacher José!</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <canvas id="confetti-canvas" aria-hidden="true"></canvas>
+
+  <div class="page-glow page-glow--pink" aria-hidden="true"></div>
+  <div class="page-glow page-glow--blue" aria-hidden="true"></div>
+
+  <main class="birthday-page">
+    <header class="top-bar">
+      <a class="brand" href="#" aria-label="Birthday celebration home">
+        <span class="brand-icon" aria-hidden="true">✦</span>
+        <span>THE ENGLISH CLASSROOM</span>
+      </a>
+
+      <button class="music-button" id="music-button" type="button" aria-pressed="false">
+        <span class="music-icon" aria-hidden="true">♫</span>
+        <span id="music-label">Play music</span>
+        <span class="sound-wave" aria-hidden="true">
+          <i></i><i></i><i></i><i></i>
+        </span>
+      </button>
+    </header>
+
+    <section class="hero" aria-labelledby="birthday-title">
+      <div class="eyebrow"><span aria-hidden="true">✨</span> TODAY IS ALL ABOUT YOU <span aria-hidden="true">✨</span></div>
+
+      <h1 id="birthday-title">
+        Happy Birthday,
+        <span class="name">Teacher José<br class="mobile-break"> Aricochea!</span>
+      </h1>
+
+      <p class="intro">
+        Today we celebrate an amazing teacher who makes every lesson
+        <span class="highlight">something special.</span>
+      </p>
+
+      <div class="celebration-stage">
+        <div class="balloon balloon--one" aria-hidden="true">🎈</div>
+        <div class="balloon balloon--two" aria-hidden="true">🎈</div>
+        <div class="balloon balloon--three" aria-hidden="true">🎈</div>
+
+        <div class="cake" aria-hidden="true">
+          <span class="cake-sparkle cake-sparkle--one">✦</span>
+          <span class="cake-sparkle cake-sparkle--two">✧</span>
+          <div class="candles">
+            <span class="candle"><i></i></span>
+            <span class="candle"><i></i></span>
+            <span class="candle"><i></i></span>
+          </div>
+          <div class="cake-top"></div>
+          <div class="cake-middle"><span>★</span><span>★</span><span>★</span></div>
+          <div class="cake-bottom"></div>
+          <div class="cake-plate"></div>
+        </div>
+
+        <button class="gift-button" id="reveal-button" type="button">
+          <span class="gift-icon" aria-hidden="true">🎁</span>
+          <span>Open your birthday card</span>
+          <span class="button-arrow" aria-hidden="true">↗</span>
+        </button>
+        <p class="tap-hint">A little surprise is waiting for you</p>
+      </div>
+
+      <article class="message-card" id="birthday-card" aria-hidden="true">
+        <div class="card-decoration" aria-hidden="true">✦</div>
+        <div class="card-label">A NOTE FOR OUR FAVORITE TEACHER</div>
+        <h2>Dear Teacher José,</h2>
+        <p>
+          Thank you for making English fun, inspiring us to keep learning,
+          and always bringing something special to the classroom.
+          Your patience and dedication mean so much to us.
+        </p>
+        <p class="card-wish">Wishing you a wonderful birthday and a year full of joy!</p>
+        <div class="card-signoff">With gratitude and warm wishes <span aria-hidden="true">💛</span></div>
+      </article>
+    </section>
+
+    <footer class="footer">
+      <span>Made with love &amp; a little bit of English <span aria-hidden="true">💫</span></span>
+    </footer>
+  </main>
+</body>
+</html>
